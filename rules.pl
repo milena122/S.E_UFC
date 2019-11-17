@@ -24,3 +24,19 @@ super_Heavyweight(X, Y) :-
 teste_primario(X, Y, Z) :- 
   homem(X, masc, N), homem(Y, masc, N).
 %entradas
+
+
+
+%equipamentos_obrigatorios
+
+equip(fem, handwrapping).
+equip(fem, mouthpieces).
+equip(fem, gloves).
+equip(fem, chest_protector).
+equip(fem,apparel).
+
+equip(masc, handwrapping).
+equip(masc, mouthpieces).
+equip(masc, gloves).
+equip(masc, groin_protector).
+equip(masc,apparel).
